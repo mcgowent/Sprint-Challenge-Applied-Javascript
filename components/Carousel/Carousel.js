@@ -1,5 +1,12 @@
 class Carousel {
+    constructor(caroElement) {
+        this.caroElement = caroElement
 
+        //List of Things I need to do.
+        //Grab a reference to the Left and Right Buttons
+        //Set up methods that will move it right or left depending on which one if clicked, an if statement perhaps
+        //and Make a way for the images to be saved in a node list that can be moved around. Perhaps have a "Current Images class" that could hold array spot 0 and be seen 
+    }
 }
 
 let carousel = document.querySelector();
