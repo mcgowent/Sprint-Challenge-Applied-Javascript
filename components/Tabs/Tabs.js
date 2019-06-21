@@ -43,7 +43,7 @@ class TabLink {
 
     // Iterate through the NodeList setting the display style each one to 'none'
     cards.forEach(x => {
-      x.style.display = "none"
+      x.setAttribute('style', 'display:none')
     })
 
     // Add a class of ".active-tab" to this.tabElement
