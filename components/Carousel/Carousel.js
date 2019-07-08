@@ -10,7 +10,6 @@ class Carousel {
         //Now that I have the image I need to be able to set just of them and turn off display:none with toggle perhaps? 
         this.currentIndex = img[0];
 
-
         this.caroElement.addEventListener('click', () => this.adjust())
 
 
